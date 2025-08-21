@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.animationbox{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(143, 210, 233);
+    animation: changecolor 5s linear infinite alternate ;
+    margin-top: 300px;
+}
+@keyframes changecolor{
+   from{
+    transform: translateX(0) rotate(0deg);
+   }
+   to{
+    transform: translateX(400px) rotate(360deg);
+
+   }
+}
